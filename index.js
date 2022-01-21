@@ -73,4 +73,8 @@ console.log("Commit result:", t3.commit());
 console.log("Ending Account Balance: ", myAccount.balance);
 console.log("Lookings like I'm broke again");
 
+console.log("Just kidding, I'm rich.");
+const t4 = new Deposit(1000000000, myAccount);
+console.log("Commit result:", t4.commit());
+
 console.log("Account Transaction History: ", myAccount.transactions);
